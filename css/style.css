@@ -20,18 +20,22 @@ body {
 
 	.r_chicken {
 		float: right;
-		border: 1px solid black;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
 		text-align: center;
 		font-size: 18px;
+		font-weight: bold;
 		padding: 4px 20px;
 		background-color: #B58642;
 		position: relative;
 	} 
 		.r_bacon {
 		float: right;
-		border: 1px solid black;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
 		text-align: center;
 		font-size: 18px;
+		font-weight: bold;
 		padding: 4px 20px;
 		background-color: #AF612E;
 		position: relative;
@@ -40,9 +44,11 @@ body {
 
 	.r_drink {
 		float: right;
-		border: 1px solid black;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
 		text-align: center;
 		font-size: 18px;
+		font-weight: bold;
 		padding: 4px 20px;
 		background-color: #A00009;
 		position: relative;
