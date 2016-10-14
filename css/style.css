@@ -2,26 +2,78 @@
 /********** Base styles **********/
 
 body {
-	margin: 0;
+	margin: 15px;
 	padding: 0;
 }
-  p {
+  .item {
 	  border: 1px solid black;
 	  background-color: lightgrey;
-	  height: 150px;
-	  margin-right: 15px;
+	  height: 170px;
+/*	  margin-right: 15px;
 	  margin-left: 15px;
+	  margin-bottom: 15px;*/
+	  margin: 15px;
 	  font-family: Helvetica;
 	  color: black;
 	  position: relative;
+	}
+
+	.r_chicken {
+		float: right;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 18px;
+		padding: 4px 20px;
+		background-color: #B58642;
+		position: relative;
+	} 
+		.r_bacon {
+		float: right;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 18px;
+		padding: 4px 20px;
+		background-color: #AF612E;
+		position: relative;
+		color: blue;
+	} 
+
+	.r_drink {
+		float: right;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 18px;
+		padding: 4px 20px;
+		background-color: #A00009;
+		position: relative;
+		color: white;
+	} 
+
+	p {
+		margin: 0px;
+	}
+
+	.description {
+		clear: right;
+		padding: 13px 10px;
+	/*	margin-top: 10px;*/
 	}
 
 * {
   box-sizing: border-box;
 }
 
+ .bacon {
+ 	background-color: brown;
+ }
+
+ .drink {
+ 	font-c
+ }
+
 h1 {
-  margin-bottom: 15px;
+	margin-top: 35px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -34,7 +86,7 @@ h1 {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    
   }
   .col-lg-1 {
     width: 8.33%;
@@ -79,7 +131,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+
   }
   .col-md-1 {
     width: 8.33%;
@@ -125,7 +177,7 @@ h1 {
 @media (min-width: 0px) and (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid green;
+
   }
   .col-sm-1 {
     width: 8.33%;
