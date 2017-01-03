@@ -51,7 +51,7 @@
 </div>
 
 <p>
-<script src="https://pals.1hub.com/assets/signin_form.js", data-onehub="signin-17ffab88b076839c404a1fa3c28c5404"></script>
+
 </p>
 
 
@@ -63,5 +63,27 @@
 <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
 
 </p>
+
+<p>Sign in to the Cabot Woodcare Dealer Resource Center below:</p>
+							
+							<script type="text/JavaScript" src="https://pals.1hub.com/assets/signin_form.js", data-onehub="signin-17ffab88b076839c404a1fa3c28c5404"></script>
+
+						</div>
+					</div>
+					<script type="text/javascript">
+						jQuery(document).ready(function(){
+							//Popup modal window for registration
+							$(".iframeRegistration").colorbox({
+								href:"../includes/cabot-dealer-registration-iframe.jsp",
+								iframe:true, 
+								innerWidth:"820", 
+								innerHeight:"500"
+							}).addClass("cboxBorder");
+							//document.getElementById("login_button").innerHTML = "";
+						});
+					</script>
+				</div> <!-- ./upper -->
+
+
 </body>
 </html>
